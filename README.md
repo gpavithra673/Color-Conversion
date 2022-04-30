@@ -18,11 +18,11 @@ Use cv2.cvtColor(src, code, dst, dstCn) to convert an image from one color space
 Split and merge the image using cv2.split and cv2.merge commands.
 
 ### Step5:
-End the program and close the output image windows.
+End the program and close the output image windows
 ## Program:
-# Developed By:
-# Register Number:
-# i) Convert BGR and RGB to HSV and GRAY
+## Developed By:G.Pavithra
+## Register Number:212221240036
+## i) Convert BGR and RGB to HSV and GRAY
 ~~~
 import cv2
 sun_color_image = cv2.imread('image.jpg')
@@ -34,7 +34,7 @@ cv2.imshow('RGB2GRAY', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 ~~~
-# ii)Convert HSV to RGB and BGR
+## ii)Convert HSV to RGB and BGR
 ~~~
 import cv2
 sun_color_image = cv2.imread('image.jpg')
@@ -46,7 +46,7 @@ cv2.imshow('HSV2BGR', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 ~~~
-# iii)Convert RGB and BGR to YCrCb
+## iii)Convert RGB and BGR to YCrCb
 ~~~
 import cv2
 sun_color_image = cv2.imread('image.jpg')
@@ -58,7 +58,7 @@ cv2.imshow('BGR2YCrCb', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 ~~~
-# iv)Split and Merge RGB Image
+## iv)Split and Merge RGB Image
 ~~~
 import cv2
 image = cv2.imread('image.jpg')
@@ -73,7 +73,7 @@ cv2.imshow('Merged BGR Image',Merged_BGR)
 cv2.waitKey(0)
 cv2.destoryAllWindows()
 ~~~
-# v) Split and merge HSV Image
+## v) Split and merge HSV Image
 ~~~
 import cv2
 image = cv2.imread('image.jpg')
